@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!--control+space for emmet-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!--site icons.getbootstrap.com, copy CDN its in head-->
+</head>
+<body>
+<div class="navbar"><!--.navbar(class)+tab , navbar is parent selector so make flexbox in css under this class-->
+    <h2>Clothing Store</h2>
+    <div class="cart">
+        <i class="bi bi-cart3"></i><!--cart icon because it will be visible-->
+        <div class="cartAmount">0</div>
+    </div>
+</div>
+<div class="shop" id="shop"><!--overall div,class target by css, id target by java script-->
+ <div class="item">
+  <img width="220" src="images/img-1.jpg" alt="">
+  <div class="details">
+    <h3>Casual shirt</h3>
+    <p>Lorem ipsum dolor sit amet
+         consectetur adipisicing.</p>
+         <div class="price-quantity">
+            <h2>$45</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+         </div>
+  </div>
+
+ </div><!--.item*4+ tab-->
+ <div class="item">
+    <img width="220" src="images/img-2.jpg" alt="">
+    <div class="details">
+      <h3>Office shirt</h3>
+      <p>Lorem ipsum dolor sit amet
+           consectetur adipisicing.</p>
+           <div class="price-quantity">
+              <h2>$100</h2>
+              <div class="buttons">
+                  <i class="bi bi-dash-lg"></i>
+                  <div class="quantity">0</div>
+                  <i class="bi bi-plus-lg"></i>
+              </div>
+           </div>
+    </div>
+  
+   </div>
+   <div class="item">
+    <img width="220" src="images/img-1.jpg" alt="">
+    <div class="details">
+      <h3>Casual shirt</h3>
+      <p>Lorem ipsum dolor sit amet
+           consectetur adipisicing.</p>
+           <div class="price-quantity">
+              <h2>$45</h2>
+              <div class="buttons">
+                  <i class="bi bi-dash-lg"></i>
+                  <div class="quantity">0</div>
+                  <i class="bi bi-plus-lg"></i>
+              </div>
+           </div>
+    </div>
+  
+   </div>
+   <div class="item">
+    <img width="220" src="images/img-1.jpg" alt="">
+    <div class="details">
+      <h3>Casual shirt</h3>
+      <p>Lorem ipsum dolor sit amet
+           consectetur adipisicing.</p>
+           <div class="price-quantity">
+              <h2>$45</h2>
+              <div class="buttons">
+                  <i class="bi bi-dash-lg"></i>
+                  <div class="quantity">0</div>
+                  <i class="bi bi-plus-lg"></i>
+              </div>
+           </div>
+    </div>
+  
+   </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

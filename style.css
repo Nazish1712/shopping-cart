@@ -9,6 +9,10 @@
 body{
     font-family: sans-serif;
 }
+
+i{
+    cursor : pointer;
+}
 /***!copy class from html and paste put dot prior class name in css, if id -start with #**/
 .navbar{
     display: flex;/***!df+tab,by default flex direction is row**/

@@ -13,6 +13,11 @@ body{
 i{
     cursor : pointer;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
 /***!copy class from html and paste put dot prior class name in css, if id -start with #**/
 .navbar{
     display: flex;/***!df+tab,by default flex direction is row**/
@@ -87,4 +92,24 @@ color: red;
 }
 .bi-plus-lg{
     color: green;
+}
+
+
+/**
+* style rules for label and button
+**/
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn{
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor:pointer ;
+    margin-top: 10px;
 }

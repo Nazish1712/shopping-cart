@@ -11,9 +11,12 @@ let calculation = () => {
 
   let generateCartItems = () => {
     if(basket.length !==0){
-  
-    }
-    else{
+      return (ShoppingCart.innerHTML= basket.map((x)=> {
+        return`
+        <div class="cart-item">Hello</div>
+        `;
+      }).join(""));
+    }else{
       ShoppingCart.innerHTML = ``;
       label.innerHTML = `
       <h2>Cart is Empty</h2>
